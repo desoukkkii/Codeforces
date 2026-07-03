@@ -15,10 +15,10 @@ int main() {
         for (int i = 0; i < n; i++)
             cin >> a[i];
 
-        int current = a[n - 1];
+        int current = a[0];
         int sum = current;
 
-        for (int i = n - 2; i >= 0; i--) {
+        for (int i = 1; i < n; i++) {
             current = min(current, a[i]);
             sum += current;
         }
