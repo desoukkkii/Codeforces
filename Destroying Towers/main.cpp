@@ -2,11 +2,13 @@
 #include <vector>
 using namespace std;
 
-int main() {
+int main()
+{
     int t;
     cin >> t;
 
-    while (t--) {
+    while (t--)
+    {
         int n;
         cin >> n;
 
@@ -18,7 +20,8 @@ int main() {
         int current = a[0];
         int sum = current;
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < n; i++)
+        {
             current = min(current, a[i]);
             sum += current;
         }
