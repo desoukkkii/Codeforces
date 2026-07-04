@@ -1,18 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     int T;
     cin >> T;
 
-    while (T--) {
+    while (T--)
+    {
 
         int n;
         cin >> n;
 
         int mn = 100, mx = 0;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+        {
             int x;
             cin >> x;
 
